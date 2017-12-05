@@ -1,9 +1,9 @@
-package Arrays;
+package Hash;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DuplicateInArray {
+public class Anagrams {
 	// DO NOT MODIFY THE LIST
 	public int repeatedNumber(final List<Integer> a) {
 	    Map<Integer,Integer> exist = new HashMap<Integer,Integer>();
